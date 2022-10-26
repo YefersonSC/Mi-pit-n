@@ -1,0 +1,10 @@
+nombre=input("¿cual es tu nombre ?:")
+print("hola"+nombre + ", vamos chévere realisar una suma ,una resta,multiplicacion y divicion .")
+chévere=int(input("por favor se amable en ingresasar el primer valor : "))
+b=int(input("por favor se amable de ingresar el segundo valor :"))
+resultado=chévere+b ;resultado2=chévere-b;resultado3=chévere*b; resultado4 =chévere/b ;resultado5 =chévere//b ;resultado6=chévere%b; espacio1=" "
+print(nombre +" el resulatdo de la suma es : ",resultado)
+print(nombre + " el resultado de la resta es : ", resultado2)
+print(nombre + " el resultdo de la multiplicacion es :", resultado3)
+print(nombre + " el resultado de la divicion :",resultado4)
+print(nombre + " el resultado de la parte entera de la  divicion es "+str(resultado5) +espacio1 + " y el resto es"+espacio1+ str(resultado6))
